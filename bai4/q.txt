@@ -1,0 +1,34 @@
+Bạn được cho hai chữ cái a và b.
+Hãy đếm bao nhiêu chữ cái nằm giữa chúng trong bảng chữ cái tiếng Anh.
+
+✅ Input
+Một dòng gồm 2 ký tự: a và b
+
+Có thể là chữ thường hoặc chữ hoa
+
+✅ Output
+Một số nguyên — số chữ cái nằm giữa a và b trong bảng chữ c
+
+📌 Quy ước
+Bảng chữ cái: "abcdefghijklmnopqrstuvwxyz"
+→ gồm 26 ký tự.
+
+Không phân biệt chữ hoa/thường
+
+
+test 1 :
+    input : a E
+    output : 3
+
+test 2 :
+    input : D a
+    output : 2
+
+test 3 : 
+    input : b c
+    output : 0
+
+test 4 :
+    input : z Z
+    output : 0
+

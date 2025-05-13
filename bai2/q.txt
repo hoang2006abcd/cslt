@@ -1,0 +1,37 @@
+Nhập 2 số nguyên dương a, b.
+
+Tính:
+
+    GCD (Ước chung lớn nhất)
+
+    LCM (Bội chung nhỏ nhất)
+
+In ra GCD và LCM, cách nhau bằng dấu cách.
+
+
+#test 1 :
+    input : 4 6
+    output : 2 12
+
+#test 2 :
+    input : 9 12
+    output : 3 36
+
+#test 3 :
+    input : 100 100
+    output : 100 100
+
+#test 4 :
+    input : 7 13
+    output : 1 91
+
+#test 4 :
+    input : 5 20    
+    output : 5 20
+
+#test 6 :
+    input : 1000000000 999999937
+    output : 1 999999937000000000
+
+
+
