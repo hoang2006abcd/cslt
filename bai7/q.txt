@@ -1,0 +1,50 @@
+Yêu cầu:
+
+Cho một mảng A gồm n số nguyên, sắp xếp mảng sao cho các phần tử âm và dương được xen kẽ với nhau. Thứ tự tương đối của các phần tử cùng dấu không thay đổi.
+
+Đầu vào:
+- Dòng đầu tiên chứa một số nguyên n.
+- Dòng thứ hai chứa n số nguyên A_i.
+
+Đầu ra:
+- In mảng A sau khi sắp xếp lại các phần tử theo cách xen kẽ âm và dương.
+
+Ràng buộc:
+- 1 ≤ n ≤ 1000
+- −1000 ≤ A_i ≤ 1000
+- A_i ≠ 0
+
+Ví dụ:
+
+Input:
+6
+1 5 -3 6 2 -5
+
+Output:
+-3 1 -5 5 6 2
+
+Giải thích: 
+Trong ví dụ này, các phần tử được sắp xếp theo cách xen kẽ các phần tử âm và dương. Khi không còn phần tử âm, tiếp tục sử dụng các phần tử dương còn lại.
+
+Test case khác:
+
+Input:
+7
+-1 2 -3 4 -5 6 7
+
+Output:
+-1 2 -3 4 -5 6 7
+
+Input:
+5
+-9 3 -7 2 8
+
+Output:
+-9 3 -7 2 8
+
+Input:
+4
+-5 -3 6 7
+
+Output:
+-5 6 -3 7
