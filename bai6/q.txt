@@ -1,0 +1,49 @@
+Yêu cầu:
+
+Cho một mảng A gồm n số nguyên. Thực hiện phép quay trái mảng k lần và sau đó in mảng kết quả.
+
+Quay trái:
+Một phép quay trái của mảng là di chuyển phần tử đầu tiên của mảng vào cuối mảng. Ví dụ, với mảng A = [1, 2, 3, 4, 5], sau một lần quay trái, mảng trở thành [2, 3, 4, 5, 1].
+
+Đầu vào:
+- Dòng đầu tiên chứa hai số nguyên n và k.
+- Dòng thứ hai chứa n số nguyên A_i.
+
+Đầu ra:
+- In mảng sau khi thực hiện phép quay trái k lần.
+
+Ràng buộc:
+- 1 ≤ k ≤ n ≤ 100
+- 1 ≤ A_i ≤ 100
+
+Ví dụ:
+
+Input:
+5 2
+1 2 3 4 5
+
+Output:
+3 4 5 1 2
+
+Test case khác:
+
+Input:
+4 1
+10 20 30 40
+
+Output:
+20 30 40 10
+
+Input:
+3 3
+1 2 3
+
+Output:
+1 2 3
+
+Input:
+6 4
+1 2 3 4 5 6
+
+Output:
+5 6 1 2 3 4

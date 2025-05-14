@@ -1,0 +1,28 @@
+Yêu cầu:
+
+Cho 2 điểm có tọa độ nguyên A(x1, y1) và B(x2, y2) trên mặt phẳng Descartes. Tính khoảng cách giữa hai điểm này.
+
+Đầu vào:
+- 4 số nguyên x1, y1, x2, y2.
+
+Đầu ra:
+- Khoảng cách giữa điểm A và điểm B, làm tròn đến 2 chữ số thập phân.
+
+Ràng buộc:
+- 1 ≤ x1, y1, x2, y2 ≤ 1000
+
+Ví dụ:
+
+Input:
+1 1 2 2
+
+Output:
+1.41
+
+Test case khác:
+
+Input:
+0 0 3 4
+
+Output:
+5.0
